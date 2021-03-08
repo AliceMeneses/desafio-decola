@@ -1,18 +1,35 @@
-#menu {
+body {
+    margin: 0;
+}
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     background-color: #4169E1;
+    height: 130px;
+    padding: 10px;
+    text-align: right;
 }
 
 #icone-menu {
-    height: 30px;
-    width: 35px;
-    margin: 25px 10px 25px 35px;
+    height: 60px;
+    width: 65px;
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 25px;
 }
 
 #titulo {
-    margin: 25px 0 15px 0;
     color: white;
     font-family: 'Trebuchet MS';
+    font-size: 60px;
+}
+
+main {
+    margin: 30px;
+}
+
+#img-casa {
+    max-width: 100%;
 }

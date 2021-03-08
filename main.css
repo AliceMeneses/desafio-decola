@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Trebuchet MS';
 }
 
 header {
@@ -19,7 +20,6 @@ header {
 
 #titulo {
     color: white;
-    font-family: 'Trebuchet MS';
     font-size: 60px;
 }
 
@@ -29,4 +29,16 @@ main {
 
 #img-casa {
     max-width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    color: #444;
+    margin: 5px 0;
+    font-size: 50px;
 }

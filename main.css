@@ -1,0 +1,18 @@
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #4169E1;
+}
+
+#icone-menu {
+    height: 30px;
+    width: 35px;
+    margin: 25px 10px 25px 35px;
+}
+
+#titulo {
+    margin: 25px 0 15px 0;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
